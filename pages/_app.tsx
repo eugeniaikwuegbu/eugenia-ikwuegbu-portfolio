@@ -1,5 +1,6 @@
-import Navbar from '../components/Navbar';
-import '../styles/globals.css';
+/* eslint-disable @next/next/no-sync-scripts */
+import Navbar from "../components/Navbar";
+import "../styles/globals.css";
 
 function App({ Component, pageProps }) {
   return (
@@ -9,5 +10,4 @@ function App({ Component, pageProps }) {
     </>
   );
 }
-
 export default App;
