@@ -39,7 +39,7 @@ const Skills = () => {
   return (
     <div id="skills" className="w-full lg:h-screen p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-        <div className="mb-20 text-center">
+        <div className="mb-4 text-center">
           <p className="text-xl tracking-widest uppercase text-[#5651e5] font-bold py-4">
             What I do
           </p>
