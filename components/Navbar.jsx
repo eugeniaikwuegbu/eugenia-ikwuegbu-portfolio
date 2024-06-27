@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import ZigaLogo from "../public/assets/ziga-logo.svg";
+import MyLogo from "../public/Ei-logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -38,7 +38,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
           <Image
-            src={ZigaLogo}
+            src={MyLogo}
             alt="/"
             width="125"
             height="50"
@@ -92,7 +92,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <Image src={ZigaLogo} width="87" height="35" alt="/" />
+                <Image src={MyLogo} width="87" height="35" alt="/" />
               </Link>
               <div
                 onClick={handleNav}

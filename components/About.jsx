@@ -11,11 +11,10 @@ const About = () => {
     >
       <div className="max-w-[1240px] md:grid grid-cols-3 gap-8 m-auto text-center">
         <div className="col-span-2">
-          <p className="text-xl tracking-widest uppercase text-[#5651e5] font-bold">
-            About
+          <p className="text-xl tracking-widest uppercase text-[#5651e5] font-bold py-4">
+            Who I am
           </p>
-          <h2 className="py-4">Who I am</h2>
-          <p className="py-2 text-gray-600">
+          <p className="py-2">
             I specialize in building scalable full-stack applications, with
             proficiency in implementing Frontend UIs and integrating robust
             back-end technologies.{" "}

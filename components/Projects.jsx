@@ -1,4 +1,7 @@
-import nodeJsImg from "../public/assets/skills/typescript.png";
+import happiVibes from "../public/assets/projects/happiVibes.png";
+import places from "../public/assets/projects/ibloov-places.png";
+import ibloov from "../public/assets/projects/ibloov.png";
+import vendaw from "../public/assets/projects/vendaw.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -6,35 +9,30 @@ const Projects = () => {
     <div id="projects" className="w-full mt-28">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <div className="text-center mb-20">
-          <p className="text-xl tracking-widest uppercase text-[#5651e5] font-bold">
-            Projects
+          <p className="text-xl tracking-widest uppercase text-[#5651e5] font-bold py-4">
+            What I&apos;ve Built
           </p>
-          <h2 className="py-4">What I&apos;ve Built</h2>
         </div>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Property Finder"
-            backgroundImg={nodeJsImg}
-            projectUrl="/property"
-            tech="React JS"
+            title="Vendaw"
+            backgroundImg={vendaw}
+            projectUrl="https://app.vendaw.com/"
           />
           <ProjectItem
-            title="Crypto App"
-            backgroundImg={nodeJsImg}
-            projectUrl="/crypto"
-            tech="React JS"
+            title="Ibloov"
+            backgroundImg={ibloov}
+            projectUrl="https://app.ibloov.com/explore"
           />
           <ProjectItem
-            title="Netflix App"
-            backgroundImg={nodeJsImg}
-            projectUrl="/netflix"
-            tech="React JS"
+            title="Ibloov Places"
+            backgroundImg={places}
+            projectUrl="https://app.ibloov.com/places/explore"
           />
           <ProjectItem
-            title="Twitch UI"
-            backgroundImg={nodeJsImg}
-            projectUrl="/twitch"
-            tech="Next JS"
+            title="Happi Vibe"
+            backgroundImg={happiVibes}
+            projectUrl="https://app.happivibe.com/login"
           />
         </div>
       </div>

@@ -7,15 +7,15 @@ const Contact = () => {
   return (
     <div id="contact" className="w-full">
       <div className="max-w-[800px] mx-auto my-10 px-2 py-16">
-        <h2 className="text-center tracking-widest text-[#5651e5]">
+        <p className="text-xl tracking-widest uppercase text-[#5651e5] font-bold text-center py-4">
           Get in Touch
-        </h2>
+        </p>
 
         <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
           <div className="p-4">
             <form
-              // action="https://getform.io/f/jawxlyqb"
-              // method="POST"
+              action="https://getform.io/f/eapddjka"
+              method="POST"
               encType="multipart/form-data"
             >
               <div className="grid md:grid-cols-2 gap-4 w-full py-2">

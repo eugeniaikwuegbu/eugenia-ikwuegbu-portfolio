@@ -1,8 +1,8 @@
-/* eslint-disable @next/next/no-sync-scripts */
+import { AppProps } from "next/app";
 import Navbar from "../components/Navbar";
 import "../styles/globals.css";
 
-function App({ Component, pageProps }) {
+function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Navbar />
